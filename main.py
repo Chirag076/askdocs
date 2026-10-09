@@ -15,7 +15,7 @@ client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 app = FastAPI(title="AskDocs")
 
-CHAT_MODEL = "gemini-3.8-flash"
+CHAT_MODEL = "gemini-3.5-flash-lite"
 EMBED_MODEL = "gemini-embedding-001"
 
 # --- ChromaDB: a real vector store that persists to ./chroma_db on disk ---
