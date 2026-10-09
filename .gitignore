@@ -1,0 +1,10 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Secrets — NEVER commit your API key
+.env
+
+# ChromaDB local store
+chroma_db/
